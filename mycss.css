@@ -29,12 +29,20 @@ p {
    margin: 0.3rem 0;     /* less vertical margin */
 }
 
+
+#NikolG{
+   background-color: #434A42;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #ACA885;
+   padding: 2%;
+
 /* Team member sections inherit styles */
 #AnetaS,
 #AnnaT,
 #KarolinaH,
 #NikolG {
    margin: 0.5rem 0;
+
 }
 
 
