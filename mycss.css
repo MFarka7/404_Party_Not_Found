@@ -1,40 +1,37 @@
-body {
-   background-color: rgb(195, 114, 229);
-   color: white;
-   font-family: "SUSE Mono", sans-serif;
-   min-height: 100vh;
-
-   /* Center everything */
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
+/* Styles scoped to Aneta's section only */
+#AnetaS {
+    background-color: rgb(195, 114, 229);
+    color: white;
+    font-family: "SUSE Mono", sans-serif;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem auto;    /* centers section horizontally */
+    width: 80%;           /* adjust width as needed */
+    max-width: 600px;     /* optional, prevent it from getting too wide */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* remove min-height: 100vh; */
 }
 
-header {
-   font-size: 1.5rem;
-   margin-bottom: 1rem;
+#AnetaS h1,
+#AnetaS h2 {
+    margin: 0.5rem 0;
 }
 
-form {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-bottom: 1rem;
+#AnetaS p {
+    line-height: 1.2;     /* tighter spacing between lines */
+    margin: 0.3rem 0;     /* less vertical margin */
 }
 
-p {
-   line-height: 1.2;     /* tighter spacing between lines */
-   margin: 0.3rem 0;     /* less vertical margin */
+#AnetaS form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
-/* Team member sections inherit styles */
-#AnetaS,
-#AnnaT,
-#KarolinaH,
-#NikolG {
-   margin: 0.5rem 0;
-}
+
 
 
