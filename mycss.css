@@ -1,37 +1,32 @@
-/* Styles scoped to Aneta's section only */
-#AnetaS {
-    background-color: rgb(195, 114, 229);
-    color: white;
-    font-family: "SUSE Mono", sans-serif;
-    text-align: center;
-    padding: 2rem;
-    margin: 1rem auto;    /* centers section horizontally */
-    width: 80%;           /* adjust width as needed */
-    max-width: 600px;     /* optional, prevent it from getting too wide */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* remove min-height: 100vh; */
+body{
+   background-color: initial;
 }
 
-#AnetaS h1,
-#AnetaS h2 {
-    margin: 0.5rem 0;
+#AnetaS{
+   background-color:initial;
+   font-family:initial;
+   color:initial;
+   
 }
 
-#AnetaS p {
-    line-height: 1.2;     /* tighter spacing between lines */
-    margin: 0.3rem 0;     /* less vertical margin */
+#AnnaT{
+   background-color: #cdcdcd;
+   font-family: initial;
+   color:#1a4a5c;
+  
+  }
+
+
+#KarolinaH{
+   background-color: initial;
+   font-family: initial;
+   color:initial;
+   
 }
 
-#AnetaS form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
+#NikolG{
+   background-color: #434A42;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #ACA885;
 }
-
-
-
 
